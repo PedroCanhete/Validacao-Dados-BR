@@ -11,7 +11,6 @@ class ValidadorCPF:
         if len(cpf) == 11:
             validador = CPF()
             return validador.validate(cpf)
-            
         else:
             raise ValueError("Quantidade de caracteres incorreta. Confira e tente novamente")
         
