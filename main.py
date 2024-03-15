@@ -1,10 +1,10 @@
-from Clas
-from validate_docbr import CNPJ
+from ClassesCPF_CNPJ import ValidadorCPF_CNPJ
 
-cpf = ValidadorCPF("48362871890")
-print(cpf)
+#cpf = ValidadorCPF("48362871890")
+#print(cpf)
 
 
-cnpj = CNPJ()
-bf = '50341659000160'
-print(cnpj.validate(bf))
+bf = '20811041000175'
+
+documento = ValidadorCPF_CNPJ(bf)
+print(documento)
