@@ -1,7 +1,4 @@
-from ClasseCPF import CPF
+from ClasseCPF import ValidadorCPF
 
-
-cpf = 48362871890
-
-objeto_cpf = CPF(cpf)
-print(objeto_cpf)
+cpf = ValidadorCPF("48362871890")
+print(cpf)
