@@ -1,6 +1,7 @@
 from ClasseTelefone import Telefone
 
 
-telefone = "34984086912"
+telefone = "5534984086912"
 objeto_telefone = Telefone(telefone)
 
+print(objeto_telefone)
