@@ -15,3 +15,4 @@ Funcionalidade extra informando há quanto tempo o usuário está cadastrado.
 __*CEP*__ -> Deve conter 8 dígitos e com máscara para retorno no formato 99999-999. 
 Além disso, acesso via API WebService ViaCEP e retornos de dados.
 
+__*Arquivos Main.py*__ -> Arquivos de testes para verificar se as classes estão funcionando.
